@@ -1,5 +1,12 @@
 version: 0.0
 os: linux
 files:
-  - source: /index.html
-    destination: /tmp/
+  - source: /index.jsp
+    destination: C:\Users\Administrator\Desktop\httpd-2.4.29-win64-VC11\Apache24\htdocs
+hooks:
+  BeforeInstall:
+    - location: scripts/server_startup
+      timeout: 300
+  
+     
+
