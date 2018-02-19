@@ -1,7 +1,7 @@
 version: 0.0
 os: windows
 files:
-  - source: /
+  - source: /index.jsp
     destination: C:\Users\Administrator\Desktop\httpd-2.4.29-win64-VC11\Apache24\htdocs
 hooks:
   BeforeInstall:
