@@ -1,2 +1,4 @@
-C:\Users\Administrator\Desktop\httpd-2.4.29-win64-VC11\Apache24\bin\httpd.exe
+c:\Windows\Sysnative\WindowsPowerShell\v1.0\powershell.exe -Command net stop httpd
+c:\Windows\Sysnative\WindowsPowerShell\v1.0\powershell.exe -Command net start httpd
+
 
